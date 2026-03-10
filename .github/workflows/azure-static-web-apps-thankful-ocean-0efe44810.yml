@@ -5,7 +5,7 @@ on:
     branches:
       - master
   pull_request:
-    types: [ opened, synchronize, reopened, closed ]
+    types: [opened, synchronize, reopened, closed]
     branches:
       - master
 
@@ -44,4 +44,3 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_OCEAN_0EFE44810 }}
           action: "close"
-          app_location: ''
